@@ -1,6 +1,10 @@
 # google_news_search
 CustomTkinter GUI to automatically search through keywords on Google News
 
+DEMO:
+
+https://github.com/rougeklaire/google_news_search/assets/83010974/77cb0bb4-4ab3-425d-bdf6-1236d63fa00c
+
 Description:
 
 I came across the task to search through a list of keywords on google news and wanted to automate it. Therefore I created a Python GUI using CustomTkinter, Tkinter and Selenium making use of checkboxes to choose certain keywords and search for them on Google News automatically, instead of manually entering each keyword. See screenshot below.
@@ -15,3 +19,4 @@ The searches are limited to 7day (or newer) old results on Google News and searc
 
 IMPORTANT:
 In order to properly use the script, make sure Python3 is installed, run the "prerequisites.py" script and make sure the respective driver reference is correct in the code and the driver used (Geckodriver for Firefox, etc.) is in the same directory as the script.
+
