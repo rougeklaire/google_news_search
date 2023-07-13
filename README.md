@@ -11,7 +11,7 @@ I came across the task to search through a list of keywords on google news and w
 
 <img width="490" alt="GUI" src="https://github.com/rougeklaire/google_news_search/assets/83010974/1ce572a2-37fd-4951-bf65-8a693d56038d">
 
-Any checkbox that is selected will be used to perform the Google News search. There's also the option to temporarily modify the search words and checkboxes through the textfield on the right. You can add new search words and the corresponding checkbox through simply adding a tab with the desired search word in the texfield on the right. You can also remove checkboxes and search words if you simply delete them from the textfield.
+Any checkbox that is selected will be used to perform the Google News search. There's also the option to temporarily modify the search words and checkboxes through the textfield on the right. You can add new search words and the corresponding checkbox through simply adding a new line with the desired search word in the texfield on the right. You can also remove checkboxes and search words if you simply delete them from the textfield.
 
 The search is now limited to Firefox. Geckodriver must be in the same directory as the script in order for the program to work properly. Other browsers can be added through changing the "geckodriver.exe" reference in the code to the desired selenium driver used by the respective browser. I will upload the geckodriver.exe used.
 
